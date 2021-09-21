@@ -5,3 +5,12 @@ img{
   position:absolute;
   width:140px;
 }
+img:hover{
+  cursor:pointer;
+}
+.dot{
+  transition:transform 1s;
+}
+.dot:hover{
+  transform:rotate(360deg);
+}

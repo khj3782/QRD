@@ -1,8 +1,4 @@
-var id1 = null;
-var id2 = null;
-var id3 = null;
-var id4 = null;
-var id5 = null;
+var id = null;
 
 function init_position(elem_id){
   var elem = document.getElementById(elem_id);
@@ -16,8 +12,6 @@ function move(elem_id, id_num) {
   var elem = document.getElementById(elem_id);
   var x = elem.offsetTop;
   var y = elem.offsetLeft;
-  /*elem.style.top = x + 'px';
-  elem.style.left = y + 'px';*/
 
   var xStep, yStep;
   xStep = Math.floor(Math.random() * 10) - 5;
@@ -60,13 +54,13 @@ init_position("dot7");
 init_position("dot8");
 init_position("dot9");
 init_position("dot10");
-move("dot1", id1);
-move("dot2", id2);
-move("dot3", id3);
-move("dot4", id4);
-move("dot5", id5);
-move("dot6", id1);
-move("dot7", id2);
-move("dot8", id3);
-move("dot9", id4);
-move("dot10", id5);
+move("dot1", id);
+move("dot2", id);
+move("dot3", id);
+move("dot4", id);
+move("dot5", id);
+move("dot6", id);
+move("dot7", id);
+move("dot8", id);
+move("dot9", id);
+move("dot10", id);
