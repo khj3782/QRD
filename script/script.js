@@ -16,8 +16,8 @@ function move(elem_id, id_num) {
   var xStep, yStep;
   xStep = Math.floor(Math.random() * 10) - 5;
   yStep = Math.floor(Math.random() * 10) - 5;
-  xStep = xStep * 4 + 1;
-  yStep = yStep * 4 + 1;
+  xStep = xStep * 2.5 + 1;
+  yStep = yStep * 2.5 + 1;
 
   clearInterval(id_num);
   id_num = setInterval(frame, 30);
