@@ -3,7 +3,7 @@ body{
 }
 img{
   position:absolute;
-  width:10vw;
+  width:12vw;
 }
 img:hover{
   cursor:pointer;
